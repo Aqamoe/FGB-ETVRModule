@@ -1,0 +1,14 @@
+{
+  "ModuleId": "com.fgbbridge.etvr",
+  "ModuleName": "EyeTrackVR",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "接收 EyeTrackVR 的 OSC 眼动数据（8889 端口），输出逐眼注视方向与睁眼度（eyes/gaze 通道）。真眼动设备输入，不含表情系数。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. 在 EyeTrackVR 设置里把 OSC 输出目标设为本机 IP（与 FGB 同一台机器可用 127.0.0.1）、端口从默认 9000 改为 8889（或改模块 config.ini 对齐），输出模式选 VRCFT 参数集（V1 或 V2 均可）。2. 关闭 VRCFaceTracking，它和本模块抢同一个端口（pyVRCFT 原生模式与注视点渲染模式不是本模块的输入）。3. 在「模块」页把 EyeTrackVR 设为启动并重启引擎，模块卡片应显示活跃。本模块为社区未验证实现。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-ETVRModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "etvr.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["eyes", "gaze"],
+  "RoleHint": "gaze"
+}

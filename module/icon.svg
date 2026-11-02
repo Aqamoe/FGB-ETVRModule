@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="EyeTrackVR">
+  <title>EyeTrackVR</title>
+  <desc>一只眼睛与注视十字线，透明背景，单色在中性灰度下对深色与浅色主题都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 64 C32 34 96 34 114 64 C96 94 32 94 14 64 Z" />
+    <circle cx="64" cy="64" r="18" />
+    <circle cx="64" cy="64" r="5" fill="#8C97AC" stroke="none" />
+    <path d="M64 24 v12" />
+    <path d="M64 92 v12" />
+    <path d="M30 64 h10" opacity="0.55" />
+    <path d="M88 64 h10" opacity="0.55" />
+  </g>
+</svg>
